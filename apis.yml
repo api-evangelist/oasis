@@ -1,7 +1,30 @@
 aid: oasis
 name: Oasis
-description: 'Oasis is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: security. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Oasis Security is a Non-Human Identity (NHI) management and security platform
+  for hybrid and multi-cloud environments. Its Agentic Access Management (AAM)
+  offering discovers, inventories, governs, and secures service accounts,
+  service principals, managed identities, API keys, secrets, and AI agent
+  credentials across AWS, Azure, GCP, Okta, HashiCorp, Snowflake, GitHub,
+  Salesforce, and AI services such as OpenAI and Amazon Bedrock. The platform
+  provides automated discovery and risk assessment, ownership and context
+  mapping, posture management, threat detection and anomaly monitoring,
+  policy-driven governance and remediation, time-bound provisioning, and secure
+  secret rotation. Founded in New York and backed by Sequoia Capital, Accel,
+  Cyberstarts, and Maple Venture Capital, Oasis extends zero-trust and PAM
+  practices to the fast-growing population of non-human and agentic identities.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/679b2b742e3af6fc4669f5cd/69404637505fa7a6327e335e_oasis-homepage.avif
 url: https://raw.githubusercontent.com/api-evangelist/oasis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Security
+- Non-Human Identity
+- Identity and Access Management
+- Cloud Security
+- Secrets Management
+- AI Agents
+- Zero Trust
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.oasis.security/
+- type: Documentation
+  url: https://docs.oasis.security/
+- type: Blog
+  url: https://www.oasis.security/blog
+- type: GitHubOrganization
+  url: https://github.com/OasisSecurity
+- type: TermsOfService
+  url: https://www.oasis.security/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.oasis.security/legal/privacy-policy
+- type: DomainSecurity
+  url: security/oasis-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
