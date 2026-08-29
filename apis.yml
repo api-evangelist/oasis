@@ -13,6 +13,17 @@ description: >-
   secret rotation. Founded in New York and backed by Sequoia Capital, Accel,
   Cyberstarts, and Maple Venture Capital, Oasis extends zero-trust and PAM
   practices to the fast-growing population of non-human and agentic identities.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
